@@ -7,3 +7,5 @@
 
 # for more details see: http://emberjs.com/guides/application/
 window.Emberquiz = Ember.Application.create()
+
+Emberquiz.deferReadiness()

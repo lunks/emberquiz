@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :cards
+
+  get 'cards/index'
+
   root :to => 'assets#index'
   get 'assets/index'
 
