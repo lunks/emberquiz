@@ -1,0 +1,5 @@
+div
+  img src="http://emberjs.com/images/about/ember-productivity-sm.png"
+    h1 Welcome to Ember.js!
+    p Hello World!
+
