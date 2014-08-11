@@ -13,3 +13,8 @@ gem 'ember-rails', '~> 0.14'
 gem 'ember-source', '~> 1.1'
 gem 'ember_script-rails', github: 'ghempton/ember-script-rails'
 gem 'emblem-rails'
+
+group :development, :test do
+  gem 'konacha', '3.2.4'
+  gem 'rspec-rails', '3.0.2'
+end
